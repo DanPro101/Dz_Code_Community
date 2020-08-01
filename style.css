@@ -1,0 +1,116 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Josefin Sans, sans-serif;
+
+  background: url(https://images.unsplash.com/photo-1518459506758-fcec22c80e75?ixlib=rb-1.2.1&auto=format&fit=crop&w=2467&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 4rem;
+	font-family:  Raleway;
+	color: white;
+}
+
+
+h2 {
+	font-size: 2rem;
+	font-family:  Raleway;
+	color: white;
+	font-weight: 600px;
+}
+
+
+
+.btn {
+	font-weight: 900px;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	-webkit-font-smoothing: subpixel-antialiased;
+	background: transparent;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	border-width: 0;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	appearance: none;
+	line-height: normal;
+	padding: 13px 26px;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	background-color: rgba(28,21,19,.86);
+	border-color: rgba(28,21,19,.86);
+	transition: .1s opacity linear;
+	border-radius: 5px;
+}
+
+.btn-primary:hover {
+	background-color: white;
+	color: black;
+	border-width: 4px white;
+	transform: scale(1.1);
+	transition: 1s
+}
+
+
+.btn-secondary {
+	-webkit-font-smoothing: subpixel-antialiased;
+	background: transparent;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	border-width: 0;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	appearance: none;
+	line-height: normal;
+	padding: 13px 26px;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	background-color: rgba(28,21,19,.86);
+	border-color: rgba(28,21,19,.86);
+	transition: .1s opacity linear;
+	border-radius: 3px;
+}
+
+.btn-secondary:hover {
+	background-color: white;
+	color: black;
+	border-width: 4px white;
+	transform: scale(1.1);
+	transition: 1s
+}
+
+
+.btn-xl {
+	padding: 1rem 2.2rem;
+}
+
+.btn-md {
+	padding: 1rem 2.2rem;
+}
+
+.buffer {
+	height: 39rem;
+}
